@@ -6,7 +6,7 @@ import java.util.HashSet;
 public class Main {
     public static void main(String[] args) {
         // Lotería Primitiva: 5 números principales (1..49) + 1 complementario
-    	System.out.println("¡Suerte en el sorteo");
+    	System.out.println("¡Suerte en el sorteo, DAM!");
         HashSet<Integer> bolas = new HashSet<>();
         Random r = new Random();
         while (bolas.size() < 5) {
